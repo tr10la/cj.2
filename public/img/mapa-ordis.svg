@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 860">
+
+  <!-- Background -->
+  <rect width="900" height="860" fill="#ede8d8"/>
+
+  <!-- Grid lines vertical -->
+  <g stroke="#cdc5b5" stroke-width="0.5">
+    <line x1="75"  y1="0" x2="75"  y2="860"/>
+    <line x1="150" y1="0" x2="150" y2="860"/>
+    <line x1="225" y1="0" x2="225" y2="860"/>
+    <line x1="300" y1="0" x2="300" y2="860"/>
+    <line x1="375" y1="0" x2="375" y2="860"/>
+    <line x1="450" y1="0" x2="450" y2="860"/>
+    <line x1="525" y1="0" x2="525" y2="860"/>
+    <line x1="600" y1="0" x2="600" y2="860"/>
+    <line x1="675" y1="0" x2="675" y2="860"/>
+    <line x1="750" y1="0" x2="750" y2="860"/>
+    <line x1="825" y1="0" x2="825" y2="860"/>
+  </g>
+  <!-- Grid lines horizontal -->
+  <g stroke="#cdc5b5" stroke-width="0.5">
+    <line x1="0" y1="75"  x2="900" y2="75"/>
+    <line x1="0" y1="150" x2="900" y2="150"/>
+    <line x1="0" y1="225" x2="900" y2="225"/>
+    <line x1="0" y1="300" x2="900" y2="300"/>
+    <line x1="0" y1="375" x2="900" y2="375"/>
+    <line x1="0" y1="450" x2="900" y2="450"/>
+    <line x1="0" y1="525" x2="900" y2="525"/>
+    <line x1="0" y1="600" x2="900" y2="600"/>
+    <line x1="0" y1="675" x2="900" y2="675"/>
+    <line x1="0" y1="750" x2="900" y2="750"/>
+    <line x1="0" y1="825" x2="900" y2="825"/>
+  </g>
+
+  <!-- Mediterranean coast (right side blob) -->
+  <path d="M 900,0 L 820,0 C 840,60 870,140 875,240 C 880,320 850,370 840,430 C 828,500 840,570 855,640 C 870,710 900,760 900,860 Z"
+        fill="#d8d0c0" opacity="0.65"/>
+
+  <!-- Road/route lines -->
+  <path d="M 0,390 C 120,395 260,415 455,458 C 610,492 750,505 900,498"
+        fill="none" stroke="#b8b0a0" stroke-width="1.8"/>
+  <path d="M 325,0 C 360,100 395,260 455,458 C 505,620 530,730 550,860"
+        fill="none" stroke="#b8b0a0" stroke-width="1.8"/>
+  <path d="M 0,460 C 180,455 310,456 455,458 C 590,460 720,450 900,440"
+        fill="none" stroke="#c0b8a8" stroke-width="1.1"/>
+
+  <!-- COMPASS ROSE -->
+  <g transform="translate(90,90)">
+    <circle r="36" fill="none" stroke="#7a7268" stroke-width="1.5"/>
+    <!-- N diamond (top) -->
+    <polygon points="0,-30 5,-6 0,6 -5,-6" fill="#3a3228"/>
+    <!-- S diamond (bottom, lighter) -->
+    <polygon points="0,30 5,6 0,-6 -5,6" fill="#ede8d8" stroke="#7a7268" stroke-width="1"/>
+    <!-- E/W ticks -->
+    <line x1="30" y1="0" x2="24" y2="0" stroke="#7a7268" stroke-width="1"/>
+    <line x1="-30" y1="0" x2="-24" y2="0" stroke="#7a7268" stroke-width="1"/>
+    <!-- N label -->
+    <text x="0" y="-44" text-anchor="middle"
+          font-family="'JetBrains Mono', monospace" font-size="13"
+          fill="#3a3228" letter-spacing="0.08em">N</text>
+  </g>
+
+  <!-- Mar Mediterranni label -->
+  <text x="895" y="108" text-anchor="end"
+        font-family="'Newsreader', Georgia, serif" font-size="19"
+        fill="#9a9080" font-style="italic">Mar</text>
+  <text x="895" y="134" text-anchor="end"
+        font-family="'Newsreader', Georgia, serif" font-size="19"
+        fill="#9a9080" font-style="italic">Mediterranni</text>
+
+  <!-- FIGUERES -->
+  <circle cx="380" cy="435" r="4.5" fill="#7a7268"/>
+  <text x="395" y="430" font-family="'JetBrains Mono', monospace" font-size="11.5"
+        fill="#5a5550" letter-spacing="0.14em">FIGUERES</text>
+
+  <!-- CADAQUÉS -->
+  <circle cx="714" cy="456" r="4.5" fill="#7a7268"/>
+  <text x="730" y="452" font-family="'JetBrains Mono', monospace" font-size="11.5"
+        fill="#5a5550" letter-spacing="0.14em">CADAQUÉS</text>
+
+  <!-- BESALÚ -->
+  <circle cx="272" cy="536" r="4.5" fill="#7a7268"/>
+  <text x="288" y="548" font-family="'JetBrains Mono', monospace" font-size="11.5"
+        fill="#5a5550" letter-spacing="0.14em">BESALÚ</text>
+
+  <!-- GIRONA -->
+  <circle cx="320" cy="678" r="4.5" fill="#7a7268"/>
+  <text x="336" y="673" font-family="'JetBrains Mono', monospace" font-size="11.5"
+        fill="#5a5550" letter-spacing="0.14em">GIRONA</text>
+
+  <!-- ORDIS — outer ring -->
+  <circle cx="455" cy="458" r="46" fill="none" stroke="#c87048" stroke-width="1" opacity="0.35"/>
+  <!-- ORDIS — inner ring -->
+  <circle cx="455" cy="458" r="25" fill="none" stroke="#c87048" stroke-width="1.3" opacity="0.55"/>
+  <!-- ORDIS — main dot -->
+  <circle cx="455" cy="458" r="10.5" fill="#b85a38"/>
+  <!-- ORDIS — name -->
+  <text x="475" y="450" font-family="'Newsreader', Georgia, serif" font-size="26"
+        fill="#2a2420" font-style="italic">Ordis</text>
+  <!-- ORDIS — coordinates -->
+  <text x="475" y="474" font-family="'JetBrains Mono', monospace" font-size="11.5"
+        fill="#9a9080" letter-spacing="0.09em">42.26°N · 2.94°E</text>
+
+</svg>
