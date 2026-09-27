@@ -33,6 +33,9 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# calendar export links
+/data
+
 # vercel
 .vercel
 
